@@ -1,0 +1,81 @@
+*, 
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(rgba(2, 142, 174, 0.529), rgba(0, 0, 0, 0.919));
+}
+
+.mainContainer{
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.userTableRow{
+    text-align: center;
+}
+
+.postsWrapperBefore{
+    display: none;
+}
+
+.postsWrapper{
+    overflow: scroll;
+}
+
+.usersH1{
+    margin: 15px 0px;
+    color: rgb(33, 32, 32);
+    text-decoration: underline;
+}
+
+.postsH1{
+    display: none;
+}
+
+.postsH1Show{
+    margin: 15px 0px;
+    text-decoration: underline;
+    color: rgb(33, 32, 32);
+}
+
+.title{
+    color:rgb(255, 255, 255);
+    font-size: 1.3rem;
+}
+
+.body{
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+}
+
+p{
+    color: rgba(255, 255, 255, 0.645);
+    text-align: left;
+    font-size:1.2rem;
+    border-bottom: 3px solid black;
+    margin: 10px 10px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.645);
+    font-size: 1rem;
+    max-height: 20px;
+    line-height: 20px;
+}
+
+a:hover{
+    color: black;
+}
+
+
